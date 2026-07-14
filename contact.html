@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>اطلب صناعة الويب - MIRAITI DIGITAL</title>
+    <style>
+        body, html { margin: 0; padding: 0; width: 100%; height: 100%; background-color: #f4f1ea; font-family: 'Segoe UI', Tahoma, sans-serif; }
+        #particles-js { position: fixed; width: 100%; height: 100%; z-index: 1; }
+        
+        .contact-container {
+            position: relative;
+            z-index: 2;
+            max-width: 600px;
+            margin: 0 auto;
+            padding-top: 80px;
+            text-align: center;
+        }
+
+        h1 { color: #333; }
+
+        input, textarea {
+            width: 80%;
+            padding: 15px;
+            margin: 10px 0;
+            border: 1px solid #c5b39a;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.7);
+        }
+
+        button {
+            padding: 15px 40px;
+            background: #333;
+            color: #fff;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            margin-top: 20px;
+            font-size: 1rem;
+        }
+
+        .social-box { margin-top: 40px; padding: 20px; }
+        .social-box a {
+            color: #c5b39a;
+            font-size: 1.5rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="particles-js"></div>
+
+    <div class="contact-container">
+        <h1>اطلب صناعة الويب خاص بك</h1>
+        <p>مستعدون لبناء رؤيتك الرقمية</p>
+        
+        <form>
+            <input type="text" placeholder="الاسم الكامل" required>
+            <input type="email" placeholder="البريد الإلكتروني" required>
+            <textarea placeholder="تفاصيل مشروعك" rows="4"></textarea>
+            <button type="submit">إرسال الطلب</button>
+        </form>
+        
+        <div class="social-box">
+            <p style="color: #333;">أو تواصلوا معنا مباشرة عبر:</p>
+            <a href="https://www.instagram.com/mrayti_digital" target="_blank">Instagram 📸</a>
+        </div>
+        
+        <br>
+        <a href="index.html" style="color: #666; text-decoration: none;">العودة للرئيسية</a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS("particles-js", {
+          "particles": {
+            "number": { "value": 80 },
+            "color": { "value": "#c5b39a" },
+            "line_linked": { "enable": true, "color": "#c5b39a" },
+            "move": { "enable": true, "speed": 1 }
+          }
+        });
+    </script>
+</body>
+</html>
